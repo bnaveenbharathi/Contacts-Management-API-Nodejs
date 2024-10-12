@@ -51,8 +51,8 @@ Create a `.env` file in the root of your project and add the following environme
 
 ```bash
 PORT=5000
-MONGO_URI=your_mongodb_connection_string
-JWT_SECRET=your_secret_key
+CONNECTION_STRING="mongodb://localhost:27017/mycontacts"
+ACCESS_TOKEN_SECRET = "marknbv@2022" 
 ```
 
 ### 4. Connect to MongoDB
