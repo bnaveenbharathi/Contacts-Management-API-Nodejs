@@ -33,7 +33,7 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/contacts-management-api.git
+git clone https://github.com/bnaveenbharathi/contacts-management-api.git
 ```
 
 ### 2. Install Dependencies
@@ -52,7 +52,7 @@ Create a `.env` file in the root of your project and add the following environme
 ```bash
 PORT=5000
 CONNECTION_STRING="mongodb://localhost:27017/mycontacts"
-ACCESS_TOKEN_SECRET = "marknbv@2022" 
+ACCESS_TOKEN_SECRET = "yourpassword" 
 ```
 
 ### 4. Connect to MongoDB
